@@ -6,5 +6,6 @@ module.exports = {
     title: `KPortfolio`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+  ],
 }
