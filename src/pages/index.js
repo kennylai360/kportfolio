@@ -1,18 +1,13 @@
 import * as React from 'react'
-import Button from '@mui/material/Button';
-import Greeting from '../common/components/greetings';
-import { Link } from 'gatsby'
+import Layout from '../common/components/layout';
 
 
 const IndexPage = () => {
 
   return (
-    <>
-      <Button variant="contained">Hello World!</Button>
-      <Link to='about'>About</Link>
-      <Greeting name='Kenny'></Greeting>
-      <Greeting name='Kristy'></Greeting>
-    </>
+    <Layout pageTitle="Home page">
+      <p>This is a page from the index.js file.</p>
+    </Layout>
   )
 }
 

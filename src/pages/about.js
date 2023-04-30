@@ -1,12 +1,11 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+import Layout from '../common/components/layout'
 
 const About = () => {
     return (
-    <main>
-        <h1>About</h1>
-        <Link to='/'>Home</Link>
-    </main>
+    <Layout pageTitle="About page">
+        <p>This is loaded from the about page</p>
+    </Layout>
     )
 }
 
